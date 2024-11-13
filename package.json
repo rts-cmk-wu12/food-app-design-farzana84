@@ -1,0 +1,25 @@
+{
+  "name": "food-app-design-farzana84",
+  "version": "1.0.0",
+  "description": "I denne opgave skal I bygge en simpel web-applikation med tre sider baseret på det udleverede Figma-design.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build:serve": "webpack serve --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.3",
+    "sass": "^1.80.7",
+    "sass-loader": "^16.0.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
